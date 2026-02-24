@@ -4,7 +4,7 @@ public class helloworld {
         // main method
 
         String name = "Pena";
-        System.out.println("Hello world" + name); // what is printed
+        System.out.println("Hello, " + name); // what is printed
 
     }
 }
