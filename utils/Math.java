@@ -1,5 +1,8 @@
 package utils;
 
+/**
+ * Contains useful math utility methods
+ */
 public class Math {
 
     /**
@@ -12,5 +15,4 @@ public class Math {
     public static int Sum(int a, int b) {
         return a + b;
     }
-
 }
