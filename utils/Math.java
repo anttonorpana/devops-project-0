@@ -1,6 +1,14 @@
 package utils;
 
 public class Math {
+
+    /**
+     * Sum two integers
+     *
+     * @param a int a
+     * @param b int b
+     * @return sum of a and b
+     */
     public static int Sum(int a, int b) {
         return a + b;
     }
