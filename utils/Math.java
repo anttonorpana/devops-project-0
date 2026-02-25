@@ -16,6 +16,13 @@ public class Math {
         return a + b;
     }
 
+    /**
+     * Times method for integers
+     *
+     * @param a int a
+     * @param b int b
+     * @return a times b
+     */
     public static int times(int a, int b) {
         return a * b;
     }
