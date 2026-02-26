@@ -38,6 +38,13 @@ public class Math {
         return a / b;
     }
 
+    /**
+     * Cunt area of rectangle
+     *
+     * @param width  int width
+     * @param height int height
+     * @return area
+     */
     public static int countAreaRectangle(int width, int height) {
         return width * height;
     }
