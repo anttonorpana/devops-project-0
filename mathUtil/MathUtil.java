@@ -10,4 +10,8 @@ public class MathUtil {
     public float bigger(float a, float b) {
         return a >= b ? a : b;
     }
+
+    public float smaller(float a, float b) {
+        return a <= b ? a : b;
+    }
 }
