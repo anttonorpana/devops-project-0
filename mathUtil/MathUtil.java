@@ -14,4 +14,8 @@ public class MathUtil {
     public float smaller(float a, float b) {
         return a <= b ? a : b;
     }
+
+    public double bigger(double a, double b) {
+        return a >= b ? a : b;
+    }
 }
