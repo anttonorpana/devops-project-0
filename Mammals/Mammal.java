@@ -19,4 +19,8 @@ public abstract class Mammal {
     public void setName(final String name) {
         this.name = name;
     }
+
+    public String getName() {
+        return this.name;
+    }
 }
