@@ -17,6 +17,13 @@ public class MathUtil {
         return a >= b ? a : b;
     }
 
+     /**
+     * Returns the greater of two {@code float} values.
+     *
+     * @param a the first value
+     * @param b the second value
+     * @return {@code a} if {@code a >= b}, otherwise {@code b}
+     */
     public float bigger(float a, float b) {
         return a >= b ? a : b;
     }
