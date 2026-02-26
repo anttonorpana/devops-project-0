@@ -42,4 +42,7 @@ public class Math {
         return width * height;
     }
 
+    public static int counAreaSquare(int radius) {
+        return (int) java.lang.Math.PI * radius * radius;
+    }
 }
