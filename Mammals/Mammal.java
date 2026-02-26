@@ -11,6 +11,11 @@ public abstract class Mammal {
         setName(name);
     }
 
+    /**
+     * A setter method for Mammals name.
+     *
+     * @param name is the name given to the mammal.
+     */
     public void setName(final String name) {
         this.name = name;
     }
