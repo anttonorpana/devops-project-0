@@ -3,6 +3,10 @@
  * around {@link System#out} printing operations.
  */
 public class Prints {
+    /**
+     * Prints a newline to the standard output.
+     * Equivalent to {@link System#out#println()}.
+     */
     public void Println() {
         System.out.println();
     }
