@@ -11,6 +11,12 @@ public class Prints {
         System.out.println();
     }
 
+    /**
+     * Prints the specified string followed by a newline
+     * to the standard output.
+     *
+     * @param s the string to be printed
+     */
     public void Println(String s) {
         System.out.println(s);
     }
