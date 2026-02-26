@@ -27,6 +27,13 @@ public class Math {
         return a * b;
     }
 
+    /**
+     * Divide method for integers
+     *
+     * @param a int a
+     * @param b int b
+     * @return a divided by b
+     */
     public static int divide(int a, int b) {
         return a / b;
     }
