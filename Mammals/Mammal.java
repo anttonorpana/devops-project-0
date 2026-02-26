@@ -20,6 +20,11 @@ public abstract class Mammal {
         this.name = name;
     }
 
+    /**
+     * Getter method for Mammal name.
+     *
+     * @return the mammals name.
+     */
     public String getName() {
         return this.name;
     }
