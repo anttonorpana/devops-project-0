@@ -1,3 +1,7 @@
+/**
+ * Utility class that provides simplified wrapper methods
+ * around {@link System#out} printing operations.
+ */
 public class Prints {
     public void Println() {
         System.out.println();
