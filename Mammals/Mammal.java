@@ -28,4 +28,6 @@ public abstract class Mammal {
     public String getName() {
         return this.name;
     }
+
+    public abstract void makeSound();
 }
