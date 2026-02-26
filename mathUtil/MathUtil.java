@@ -1,3 +1,10 @@
+/**
+ * Utility class that provides comparison methods
+ * for primitive numeric types.
+ * <p>
+ * Includes overloaded methods to determine the larger
+ * or smaller value between two numbers.
+ */
 public class MathUtil {
     public int bigger(int a, int b) {
         return a >= b ? a : b;
