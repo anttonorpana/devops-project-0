@@ -1,5 +1,7 @@
 package Mammals;
 
-public class Mammal {
+public abstract class Mammal {
+
+    private String name;
 
 }
