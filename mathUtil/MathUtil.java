@@ -6,4 +6,8 @@ public class MathUtil {
     public int smaller(int a, int b) {
         return a <= b ? a : b;
     }
+
+    public float bigger(float a, float b) {
+        return a >= b ? a : b;
+    }
 }
