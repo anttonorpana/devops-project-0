@@ -39,6 +39,13 @@ public class MathUtil {
         return a >= b ? a : b;
     }
 
+    /**
+     * Returns the smaller of two {@code int} values.
+     *
+     * @param a the first value
+     * @param b the second value
+     * @return {@code a} if {@code a <= b}, otherwise {@code b}
+     */
     public int smaller(int a, int b) {
         return a <= b ? a : b;
     }
