@@ -38,4 +38,8 @@ public class Math {
         return a / b;
     }
 
+    public static int countAreaRectangle(int width, int height) {
+        return width * height;
+    }
+
 }
