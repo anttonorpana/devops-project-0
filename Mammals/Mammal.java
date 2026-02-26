@@ -29,5 +29,9 @@ public abstract class Mammal {
         return this.name;
     }
 
+    /**
+     * Abstract method for derivative classes
+     * to implement.
+     */
     public abstract void makeSound();
 }
