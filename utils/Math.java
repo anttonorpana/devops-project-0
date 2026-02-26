@@ -39,7 +39,7 @@ public class Math {
     }
 
     /**
-     * Cunt area of rectangle
+     * Count area of rectangle
      *
      * @param width  int width
      * @param height int height
@@ -49,6 +49,12 @@ public class Math {
         return width * height;
     }
 
+    /**
+     * Count area of square
+     *
+     * @param radius int radius
+     * @return area
+     */
     public static int counAreaSquare(int radius) {
         return (int) java.lang.Math.PI * radius * radius;
     }
