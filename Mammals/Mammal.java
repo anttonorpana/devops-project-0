@@ -8,6 +8,10 @@ public abstract class Mammal {
     private String name;
 
     public Mammal(final String name) {
+        setName(name);
+    }
+
+    public void setName(final String name) {
         this.name = name;
     }
 }
