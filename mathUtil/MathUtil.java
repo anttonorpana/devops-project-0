@@ -6,6 +6,13 @@
  * or smaller value between two numbers.
  */
 public class MathUtil {
+    /**
+     * Returns the greater of two {@code int} values.
+     *
+     * @param a the first value
+     * @param b the second value
+     * @return {@code a} if {@code a >= b}, otherwise {@code b}
+     */
     public int bigger(int a, int b) {
         return a >= b ? a : b;
     }
