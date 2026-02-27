@@ -1,3 +1,5 @@
+package utils;
+
 /**
  * Utility class that provides simplified wrapper methods
  * around {@link System#out} printing operations.
