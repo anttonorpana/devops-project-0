@@ -7,6 +7,9 @@ import java.awt.*;
 public class MainWindow extends JFrame {
     private JButton button;
 
+    /**
+     * Constructor method for MainWindow
+     */
     MainWindow() {
         setSize(300, 400);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
