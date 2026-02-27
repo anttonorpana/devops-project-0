@@ -1,5 +1,8 @@
 import javax.swing.*;
 
-public class MainWIndow extends JFrame {
+public class MainWindow extends JFrame {
+    MainWindow() {
+        setSize(300, 400);
 
+    }
 }
