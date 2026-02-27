@@ -23,7 +23,9 @@ public class MainWindow extends JFrame implements ActionListener {
         setVisible(true);
     }
 
+    /**
+     * Change button text to good job after pressing it
+     */
     public void actionPerformed(ActionEvent e) {
         button.setText("Good job");
     }
-}
