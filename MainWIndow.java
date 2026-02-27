@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.*;
 
 /**
  * Window for our app
@@ -16,5 +17,11 @@ public class MainWindow extends JFrame {
         setLayout(new FlowLayout());
         button = new JButton("click me");
         add(button);
+
+        b.addActionListener(this);
+    }
+
+    public void actionPerformed(ActionEvent e) {
+        button.setText("Good job");
     }
 }
