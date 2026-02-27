@@ -9,7 +9,7 @@ public class Prints {
      * Prints a newline to the standard output.
      * Equivalent to {@link System#out#println()}.
      */
-    public void println() {
+    public static void println() {
         System.out.println();
     }
 
