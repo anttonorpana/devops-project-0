@@ -19,7 +19,7 @@ public class Prints {
      *
      * @param s the string to be printed
      */
-    public void println(String s) {
+    public static void println(String s) {
         System.out.println(s);
     }
 
