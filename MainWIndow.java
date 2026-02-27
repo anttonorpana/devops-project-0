@@ -5,7 +5,7 @@ import java.awt.event.*;
 /**
  * Window for our app
  */
-public class MainWindow extends JFrame {
+public class MainWindow extends JFrame implements ActionListener {
     private JButton button;
 
     /**
@@ -18,7 +18,9 @@ public class MainWindow extends JFrame {
         button = new JButton("click me");
         add(button);
 
-        b.addActionListener(this);
+        button.addActionListener(this);
+
+        setVisible(true);
     }
 
     public void actionPerformed(ActionEvent e) {

@@ -6,5 +6,6 @@ public class helloworld {
         String name = "Pena";
         System.out.println("Hello, " + name); // what is printed
 
+        new MainWindow();
     }
 }
