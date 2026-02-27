@@ -29,7 +29,7 @@ public class Prints {
      *
      * @param s the string to be printed
      */
-    public void print(String s) {
+    public static void print(String s) {
         System.out.print(s);
     }
 }
