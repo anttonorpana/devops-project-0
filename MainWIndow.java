@@ -29,3 +29,4 @@ public class MainWindow extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         button.setText("Good job");
     }
+}
