@@ -14,6 +14,9 @@ public class SleepCalculator {
 
         System.out.println("How old are you? Give anwer in whole years: ");
         Double age = Double.parseDouble(c.readLine());
+        if (age.isNaN() || age == null) {
+            throw new IllegalArgumentException("Give age as an integer");
+        }
 
         Double ageInDays = age * 365;
         Double ageInHours = ageInDays * 24;
