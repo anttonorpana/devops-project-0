@@ -2,6 +2,9 @@ package utils;
 
 import java.io.Console;
 
+/**
+ * This class contain calculateSleepTime method
+ */
 public class SleepCalculator {
     /**
      * Calculates how much you have slept of your life
