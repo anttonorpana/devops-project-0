@@ -12,5 +12,8 @@ public class SleepCalculator {
         Double ageInDays = age * 365;
         Double ageInHours = ageInDays * 24;
 
+        Double sleptTimeYears = 0.3333 * age;
+        Double sleptTimeDays = 0.3333 * ageInDays;
+        Double sleptTimeHours = 0.333 * ageInHours;
     }
 }
