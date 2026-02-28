@@ -7,6 +7,10 @@ public class SleepCalculator {
         Console c = System.console();
 
         System.out.println("How old are you? Give anwer in whole years: ");
-        int age = Integer.parseInt(c.readLine());
+        Double age = Double.parseDouble(c.readLine());
+
+        Double ageInDays = age * 365;
+        Double ageInHours = ageInDays * 24;
+
     }
 }
