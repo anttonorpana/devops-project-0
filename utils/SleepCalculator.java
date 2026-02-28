@@ -25,6 +25,7 @@ public class SleepCalculator {
         Double sleptTimeDays = 0.3333 * ageInDays;
         Double sleptTimeHours = 0.333 * ageInHours;
 
+        System.out.println("Congratulations!");
         System.out.println("You have slept:");
         System.out.println(sleptTimeYears + " years");
         System.out.println(sleptTimeDays + " days");
