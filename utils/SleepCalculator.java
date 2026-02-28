@@ -3,6 +3,9 @@ package utils;
 import java.io.Console;
 
 public class SleepCalculator {
+    /**
+     * Calculates how much you have slept of your life
+     */
     public static void CalculateSleepTime() {
         Console c = System.console();
 
