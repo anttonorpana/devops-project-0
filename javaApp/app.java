@@ -5,10 +5,10 @@ package javaApp;
  */
 public class app {
     public static void main(String[] args) {
-        System.out.println(getGreetingMessage());
+        System.out.println(getGreeting());
     }
 
-    public static String getGreetingMessage() {
+    public static String getGreeting() {
         return "Hello Dev!";
     }
 }
