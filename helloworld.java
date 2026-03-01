@@ -13,6 +13,6 @@ public class helloworld {
     }
 
     public static String Randomizer() {
-
+        Random rand = new Random();
     }
 }
