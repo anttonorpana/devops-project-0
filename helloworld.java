@@ -1,3 +1,4 @@
+import utils.Prints;
 import java.util.Random;
 
 public class helloworld {
@@ -9,8 +10,8 @@ public class helloworld {
 
     public static void Printtaaja() {
         String name = "Esko";
-        System.out.println("Hello, " + name); // what is printed
-        System.out.println("Hello, " + Randomizer());
+        Prints.println("Hello, " + name); // what is printed
+        Prints.println("Hello, " + Randomizer());
     }
 
     /**
