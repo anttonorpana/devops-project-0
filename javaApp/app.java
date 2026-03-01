@@ -5,14 +5,10 @@ package javaApp;
  */
 public class app {
     public static void main(String[] args) {
-        String name = args.length > 0 ? args[0] : "Developer";
-        System.out.println(getGreetingMessage(name));
+        System.out.println(getGreetingMessage());
     }
 
-    public static String getGreetingMessage(String name) {
-        if (name == null || name.isBlank()) {
-            name = "Developer";
-        }
-        return "Hello, " + name + "!";
+    public static String getGreetingMessage() {
+        return "Hello Dev!";
     }
 }
