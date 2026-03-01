@@ -9,4 +9,8 @@ public class helloworld {
         String name = "Esko";
         System.out.println("Hello, " + name); // what is printed
     }
+
+    public static String Randomizer() {
+
+    }
 }
