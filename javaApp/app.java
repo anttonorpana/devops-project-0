@@ -1,7 +1,7 @@
 package javaApp;
 
 /**
- * Simple greeting
+ * Simple greeting App
  */
 public class app {
     public static void main(String[] args) {
