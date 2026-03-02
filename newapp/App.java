@@ -9,7 +9,7 @@ public class App {
         System.out.println("=== DevOps Demo ===");
         String name = args.length > 0 ? args[0] : "Developer";
         System.out.println(getGreeting(name));
-        System.out.println(getGreeting("Developer"));
+        System.out.println(farewell(name));
     }
 
     public static String getGreeting(String name) {
