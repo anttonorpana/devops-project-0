@@ -17,6 +17,20 @@ import static utils.Prints.println;
  * </p>
  */
 public class ExamplePrints {
+    /**
+     * Entry point of the program.
+     *
+     * <p>Execution flow:
+     * <ol>
+     *     <li>Prints text without a newline.</li>
+     *     <li>Prints additional text on the same line, then adds a newline.</li>
+     *     <li>Prints an empty line.</li>
+     *     <li>Prints a final message on a new line.</li>
+     * </ol>
+     * </p>
+     *
+     * @param args command-line arguments (not used)
+     */
     public static void main(String[] args) {
         print("I want to "); // This print doesn't make newline at the end
         println("eat ice cream"); // So this continues in the same line
