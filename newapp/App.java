@@ -8,6 +8,7 @@ public class App {
         // dsafdhyt
         System.out.println("=== DevOps Demo ===");
         String name = args.length > 0 ? args[0] : "Developer";
+        System.out.println(farewell(name));
         System.out.println(getGreeting(name));
         System.out.println(farewell(name));
     }
