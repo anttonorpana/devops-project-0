@@ -23,4 +23,5 @@ public class App {
     public static String farewell(String name) {
         return "Goodbye, " + name + "!";
     }
+    // TODO: add unit tests
 }
