@@ -1,3 +1,6 @@
+/**
+ * Simple DevOps demo application.
+ */
 package com.example;
 
 public class App {
