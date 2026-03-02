@@ -4,12 +4,12 @@ import java.io.Console;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class RockPaperScissors {
-    public void playRockPaperScissors() {
-        int rockIndex = 0;
-        int paperIndex = 1;
-        int scissorIndex = 2;
+    final int rockIndex = 0;
+    final int paperIndex = 1;
+    final int scissorIndex = 2;
+    final Console c = System.console();
 
-        int pcIndex = getRandomIndex(0, 2);
+    public void playRockPaperScissors() {
 
     }
 
@@ -19,5 +19,7 @@ public class RockPaperScissors {
 
     public void startGame() {
         System.out.println("Welcome to the game of rock paper sciccors!");
+        System.out.println("Type eiher <rock>, <paper> or <scissors>");
+
     }
 }
