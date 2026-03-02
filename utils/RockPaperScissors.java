@@ -9,4 +9,8 @@ public class RockPaperScissors {
         int scissorIndex = 2;
 
     }
+
+    public int getRandomIndex(int min, int max) {
+
+    }
 }
