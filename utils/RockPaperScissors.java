@@ -60,7 +60,7 @@ public class RockPaperScissors {
      * Calculates winner of the game based on indexes
      *
      * @param playerIndex 0-2 based on what did user choose
-     * @param pcIndex     0-2 randomly
+     * @param pcIndex     0-2 randomly generated
      */
     public void calculateWinner(int playerIndex, int pcIndex) {
         switch (playerIndex) {
