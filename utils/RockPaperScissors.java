@@ -10,19 +10,10 @@ public class RockPaperScissors {
     final Console c = System.console();
 
     public void playRockPaperScissors() {
-
-    }
-
-    public int getRandomIndex(int min, int max) {
-        return ThreadLocalRandom.current().nextInt(min, max + 1);
-    }
-
-    public void startGame() {
-        System.out.println("Welcome to the game of rock paper sciccors!");
-        System.out.println("Type eiher <rock>, <paper> or <scissors>");
+        startGame();
 
         String input = c.readLine();
-        int yourIndex = 0;
+        int yourIndex;
 
         switch (input) {
             case "rock":
@@ -34,5 +25,14 @@ public class RockPaperScissors {
                 yourIndex = scissorIndex;
                 break;
         }
+    }
+
+    public int getRandomIndex(int min, int max) {
+        return ThreadLocalRandom.current().nextInt(min, max + 1);
+    }
+
+    public void startGame() {
+        System.out.println("Welcome to the game of rock paper sciccors!");
+        System.out.println("Type eiher <rock>, <paper> or <scissors>");
     }
 }
