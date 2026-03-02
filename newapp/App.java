@@ -6,7 +6,6 @@ package com.example;
 public class App {
     public static void main(String[] args) {
         // dsafdhyt
-        System.out.println("=== DevOps Demo ===");
         String name = args.length > 0 ? args[0] : "Developer";
         System.out.println(getGreeting(name));
         System.out.println(farewell(name));
