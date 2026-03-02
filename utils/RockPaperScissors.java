@@ -56,8 +56,14 @@ public class RockPaperScissors {
         System.out.println("Type eiher <rock>, <paper> or <scissors>");
     }
 
-    public void calculateWinner(int palyerIndex, int pcIndex) {
-        switch (palyerIndex) {
+    /**
+     * Calculates winner of the game based on indexes
+     *
+     * @param playerIndex 0-2 based on what did user choose
+     * @param pcIndex     0-2 randomly
+     */
+    public void calculateWinner(int playerIndex, int pcIndex) {
+        switch (playerIndex) {
             case rockIndex:
                 if (pcIndex == rockIndex) {
                     System.out.println("PC picked rock. Game is tie!");
