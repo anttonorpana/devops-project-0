@@ -6,6 +6,10 @@ public class Human extends Mammal {
         super(name);
     }
 
+    /**
+     * Inherited method makeSound
+     * implementation in human.
+     */
     public void makeSound() {
         System.out.println("Hei!");
     }
