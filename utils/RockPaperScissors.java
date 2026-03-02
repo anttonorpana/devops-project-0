@@ -48,6 +48,9 @@ public class RockPaperScissors {
         return ThreadLocalRandom.current().nextInt(min, max + 1);
     }
 
+    /**
+     * Prints the starting dialog of the game
+     */
     public void startGame() {
         System.out.println("Welcome to the game of rock paper sciccors!");
         System.out.println("Type eiher <rock>, <paper> or <scissors>");
