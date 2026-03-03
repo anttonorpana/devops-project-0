@@ -14,15 +14,17 @@ public class calc {
         String op = scan.nextLine().trim();
         System.out.println("Give number 2:");
         String num2 = scan.nextLine().trim();
+        float f1 = Float.parseFloat(num1);
+        float f2 = Float.parseFloat(num2);
         Float tulos = 0.0f;
         if (op.equals("+")) {
-            tulos = Float.parseFloat(num1) + Float.parseFloat(num2);
+            tulos = f1 + f2;
         } else if (op.equals("-")) {
-            tulos = Float.parseFloat(num1) - Float.parseFloat(num2);
+            tulos = f1 - f2;
         } else if (op.equals("*")) {
-            tulos = Float.parseFloat(num1) * Float.parseFloat(num2);
+            tulos = f1 * f2;
         } else if (op.equals("/")) {
-            tulos = Float.parseFloat(num1) / Float.parseFloat(num2);
+            tulos = f1 / f2;
             if (Float.isInfinite(tulos)) {
                 System.out.println("Error: Division by zero is not allowed.");
             }
