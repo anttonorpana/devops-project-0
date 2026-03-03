@@ -12,5 +12,8 @@ public class calc {
         System.out.println("Give number 2:");
         String num2 = scan.nextLine();
         Float tulos = 0.0f;
+        if (op.equals("+")) {
+            tulos = Float.parseFloat(num1) + Float.parseFloat(num2);
+        }
     }
 }
