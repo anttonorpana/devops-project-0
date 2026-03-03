@@ -6,13 +6,16 @@ public class Dog extends Mammal {
 
     /**
      * Constructor for dog object.
-     * 
+     *
      * @param name is the dogs name.
      */
     public Dog(String name) {
         super(name);
     }
 
+    /**
+     * Mammal required method implementation.
+     */
     public void makeSound() {
         System.out.println("Vuf");
     }
