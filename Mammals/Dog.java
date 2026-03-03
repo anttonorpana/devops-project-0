@@ -20,7 +20,7 @@ public class Dog extends Mammal {
         System.out.println("Vuf");
     }
 
-    public void sniffButt() {
-        System.out.println("Sniffs butt");
+    public void peeOnTree() {
+        System.out.println(name + " pees on a tree.");
     }
 }
