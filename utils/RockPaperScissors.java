@@ -1,0 +1,96 @@
+package utils;
+
+import java.io.Console;
+import java.util.concurrent.ThreadLocalRandom;
+
+/**
+ * This class contains rock paper scissors cli game
+ */
+public class RockPaperScissors {
+    private final int rockIndex = 0;
+    private final int paperIndex = 1;
+    private final int scissorIndex = 2;
+    private final Console c = System.console();
+
+    /**
+     * This method runs the game loop
+     */
+    public void playRockPaperScissors() {
+        startGame();
+
+        String input = c.readLine();
+        int yourIndex;
+
+        switch (input) {
+            case "rock":
+                yourIndex = rockIndex;
+                break;
+            case "paper":
+                yourIndex = paperIndex;
+            default:
+                yourIndex = scissorIndex;
+                break;
+        }
+
+        int pcIndex = getRandomIndex(0, 2);
+
+        calculateWinner(yourIndex, pcIndex);
+    }
+
+    /**
+     * Calculate random integer between fixed range
+     *
+     * @param min minium integer
+     * @param max maxium integer
+     * @return random integer between min and max
+     */
+    public int getRandomIndex(int min, int max) {
+        return ThreadLocalRandom.current().nextInt(min, max + 1);
+    }
+
+    /**
+     * Prints the starting dialog of the game
+     */
+    public void startGame() {
+        System.out.println("Welcome to the game of rock paper sciccors!");
+        System.out.println("Type eiher <rock>, <paper> or <scissors>");
+    }
+
+    /**
+     * Calculates winner of the game based on indexes
+     *
+     * @param playerIndex 0-2 based on what did user choose
+     * @param pcIndex     0-2 randomly generated
+     */
+    public void calculateWinner(int playerIndex, int pcIndex) {
+        switch (playerIndex) {
+            case rockIndex:
+                if (pcIndex == rockIndex) {
+                    System.out.println("PC picked rock. Game is tie!");
+                } else if (pcIndex == paperIndex) {
+                    System.out.println("PC picked paper. You lost!");
+                } else {
+                    System.out.println("PC picked scissors. You won!");
+                }
+                break;
+            case paperIndex:
+                if (pcIndex == rockIndex) {
+                    System.out.println("PC picked rock. You won!");
+                } else if (pcIndex == paperIndex) {
+                    System.out.println("PC picked paper. Game is tie!");
+                } else {
+                    System.out.println("PC picked scissors. You lost!");
+                }
+                break;
+            default:
+                if (pcIndex == rockIndex) {
+                    System.out.println("PC picked rock. You Lost!");
+                } else if (pcIndex == paperIndex) {
+                    System.out.println("PC picked paper. You won!");
+                } else {
+                    System.out.println("PC picked scissors. Game is tie!");
+                }
+                break;
+        }
+    }
+}
