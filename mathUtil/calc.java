@@ -11,5 +11,6 @@ public class calc {
         String op = scan.nextLine();
         System.out.println("Give number 2:");
         String num2 = scan.nextLine();
+        Float tulos = 0.0f;
     }
 }
