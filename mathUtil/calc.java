@@ -2,6 +2,8 @@ package mathUtil;
 
 import java.util.Scanner;
 
+// Version: 1.0.0
+
 /**
  * Simple console calculator.
  */
