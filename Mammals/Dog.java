@@ -11,4 +11,8 @@ public class Dog extends Mammal {
     public void makeSound() {
         System.out.println("Vuf");
     }
+
+    public void sniffButt() {
+        System.out.println("Sniffs butt");
+    }
 }
