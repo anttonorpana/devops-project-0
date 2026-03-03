@@ -20,6 +20,9 @@ public class Dog extends Mammal {
         System.out.println("Vuf");
     }
 
+    /**
+     * Dog specific method.
+     */
     public void peeOnTree() {
         System.out.println(name + " pees on a tree.");
     }
