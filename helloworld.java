@@ -19,6 +19,13 @@ public class helloworld {
         Printtaaja();
     }
 
+    /**
+     * Prints greeting messages to the console.
+     * <p>
+     * First prints a greeting to the name "Esko".
+     * Then prints a greeting to a randomly selected name
+     * returned by the {@link #Randomizer()} method.
+     */
     public static void Printtaaja() {
         String name = "Esko";
         Prints.println("Hello, " + name); // what is printed
