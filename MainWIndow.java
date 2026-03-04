@@ -13,7 +13,11 @@ public class MainWindow extends JFrame implements ActionListener {
     private JButton button;
 
     /**
-     * Constructor method for MainWindow
+     * Constructs the main window.
+     * <p>
+     * Initializes the frame size, layout, close operation,
+     * creates the button, registers the action listener,
+     * and makes the window visible.
      */
     MainWindow() {
         setSize(300, 400);
