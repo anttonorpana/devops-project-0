@@ -1,6 +1,13 @@
 import utils.Prints;
 import java.util.Random;
 
+/**
+ * A simple program that prints greeting messages to the console.
+ * <p>
+ * The program prints a greeting to a fixed name ("Esko") and
+ * then prints another greeting to a randomly selected name
+ * from a predefined list.
+ */
 public class helloworld {
     // main class
     public static void main(String[] args) {
