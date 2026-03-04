@@ -9,7 +9,11 @@ import java.util.Random;
  * from a predefined list.
  */
 public class helloworld {
-    // main class
+    /**
+     * The main entry point of the program.
+     *
+     * @param args command-line arguments (not used)
+     */
     public static void main(String[] args) {
         // main method
         Printtaaja();
