@@ -9,6 +9,7 @@ import java.awt.event.*;
  * "click me" to "Good job".
  */
 public class MainWindow extends JFrame implements ActionListener {
+    /** Button displayed in the window. */
     private JButton button;
 
     /**
