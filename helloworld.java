@@ -1,13 +1,31 @@
 import utils.Prints;
 import java.util.Random;
 
+/**
+ * A simple program that prints greeting messages to the console.
+ * <p>
+ * The program prints a greeting to a fixed name ("Esko") and
+ * then prints another greeting to a randomly selected name
+ * from a predefined list.
+ */
 public class helloworld {
-    // main class
+    /**
+     * The main entry point of the program.
+     *
+     * @param args command-line arguments (not used)
+     */
     public static void main(String[] args) {
         // main method
         Printtaaja();
     }
 
+    /**
+     * Prints greeting messages to the console.
+     * <p>
+     * First prints a greeting to the name "Esko".
+     * Then prints a greeting to a randomly selected name
+     * returned by the {@link #Randomizer()} method.
+     */
     public static void Printtaaja() {
         String name = "Esko";
         Prints.println("Hello, " + name); // what is printed
