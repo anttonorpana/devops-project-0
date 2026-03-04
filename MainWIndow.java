@@ -3,7 +3,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 /**
- * Window for our app
+ * Main application window containing a single button.
+ * <p>
+ * When the button is clicked, its text changes from
+ * "click me" to "Good job".
  */
 public class MainWindow extends JFrame implements ActionListener {
     private JButton button;
